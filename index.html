@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style/fontawesome-free-6.5.2-web/css/all.min.css">
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title text-center my-5 pb-5">
+      <h1 class="position-relative d-inline-block">
+        <div class="layer position-absolute bottom-0 start-0 end-0 bg-warning bg-opacity-75"></div>
+        Customers Transactions
+      </h1>
+    </div>
+    <div class="bookmark pb-5">
+      <label for="sName" class="mb-1"><i class="fa-solid fa-file-signature me-2"></i>Customer Name</label>
+      <input placeholder="Filter By Customer Name" type="text" class="form-control" id="sName">
+      <label for="transaction" class="mb-1 mt-4"><i class="fa-solid fa-link me-2"></i></i>Transactions</label>
+      <input placeholder="Filter By Transaction" type="text" class="form-control" id="transaction">
+    </div>
+    <div class="websiteinfo bg bg-white px-1 mb-0 mt-4 py-2 border-bottom border-secondary-subtle">
+      <ul class="list-unstyled d-flex justify-content-between mb-0">
+        <li class="text-center col-2">Transaction ID</li>
+        <li class="text-center col-2">Customer Name</li>
+        <li class="text-center col-2">Transaction Amount</li>
+        <li class="text-center col-2">Transaction Date</li>
+        <li class="text-center col-2">Customer ID</li>
+      </ul>
+    </div>
+    <div id="siteinfo">
+
+    </div>
+
+    <div id="chartContainer" class="pt-5" style="height: 300px; width: 100%;"></div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.canvasjs.com/jquery.canvasjs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

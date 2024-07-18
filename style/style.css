@@ -1,0 +1,68 @@
+body {
+    background-color: #F7ECDE;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.websiteinfo1 {
+    cursor: pointer;
+    background-color: white;
+}
+
+.websiteinfo1:hover li {
+    color: white
+}
+
+.websiteinfo1:hover {
+    background-color: gray;
+}
+
+.title h1 {
+    font-family: "Pacifico";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    z-index: 1000;
+
+}
+
+.bookmark label {
+    font-weight: 600;
+}
+
+.websiteinfo {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.layer {
+    top: 70%;
+    transition: all 1s;
+    z-index: -1;
+}
+
+.title h1:hover .layer {
+    top: 25%;
+}
+
+.bookmark h2 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, yellow);
+    background-clip: text;
+    color: transparent;
+    background-size: 100%;
+
+}
+
+.title {
+    border-bottom: dotted;
+}
+
+.bookmark {
+    border-bottom: dotted;
+}
+
